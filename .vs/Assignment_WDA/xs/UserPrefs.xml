@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{E4FC9982-3A1B-46FE-BDB1-8129ED3DF269}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment_WDA/Service/EmployeeService.cs">
+    <Files>
+      <File FileName="Assignment_WDA/Controllers/DepartmentController.cs" />
+      <File FileName="Assignment_WDA/Entities/DataContext.cs" />
+      <File FileName="Assignment_WDA/Service/EmployeeService.cs" Line="36" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Assignment_WDA" expanded="True">
+            <Node name="Assignment_WDA" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="Interface" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Service" expanded="True">
+                <Node name="EmployeeService.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assignment__WDA PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

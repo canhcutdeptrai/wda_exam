@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Department Report";
+}
+
+<h2>Department Report</h2>
+
+<p>
+    <strong>Department:</strong> @ViewBag.DepartmentName
+</p>
+
+<p>
+    <strong>Number of Employees:</strong> @ViewBag.EmployeeCount
+</p>
+
+<p>
+    <a asp-controller="Department" asp-action="Index" class="btn btn-primary">Back</a>
+</p>

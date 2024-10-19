@@ -1,0 +1,39 @@
+﻿@using Assignment_WDA.Entities
+@model IEnumerable<Employee>
+
+@{
+    ViewData["Title"] = "Employees";
+}
+
+<h2>Employees</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Employee</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Employee Name</th>
+            <th>Employee Code</th>
+            <th>Rank</th>
+            <th>Department</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.EmployeeName</td>
+                <td>@employee.EmployeeCode</td>
+                <td>@employee.Rank</td>
+                <td>@employee.Department.DepartmentName</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@employee.EmployeeId" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@employee.EmployeeId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
